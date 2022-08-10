@@ -15,11 +15,23 @@
         <nav>
           <ul>
             <li><a href="#mywork">My Work</a></li>
-            <li><a href="#myskills">My Skills</a></li>
+            <li><a href="#aboutme">About Me</a></li>
             <li><a href="mailto:mitchell.painter@hotmail.com">Hire Me</a></li>
           </ul>
         </nav>
       </header>
+
+      <script>
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function(e){
+          e.preventDefault();
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior : "smooth"
+          });
+        });
+      });
+      </script>
+
       <div class="social-header">
         <ul>
           <li>
@@ -145,7 +157,7 @@
       />
     </section>
 
-    <section class="skills" id="myskills">
+    <section class="skills">
       <div class="skills-container">
         <ul>
           <li class="transition6">
@@ -195,7 +207,7 @@
             </p>
           </div>
         </div>
-        <a href="#"><img src="images/fleetdash.png" alt="FleetDash" /></a>
+        <a href="https://fleet-dash.netlify.app" ><img src="images/fleetdash.png" alt="FleetDash" /></a>
       </div>
     </section>
 
@@ -208,19 +220,17 @@
             </div>
             <p class="subtitle">About Me</p>
             <p class="about-desc">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique
-              ut ut in sapien id turpis at. Condimentum faucibus ultrices
-              vulputate amet. sed diam voluptua. Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit. Tristique ut ut in sapien id turpis
-              at. Condimentum faucibus ultrices vulputate amet. sed diam
-              voluptua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Tristique ut ut in sapien id turpis at. Condimentum faucibus
-              ultrices vulputate amet. sed diam voluptua. Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit. Tristique ut ut in sapien id
-              turpis at. Condimentum faucibus ultrices vulputate amet. sed diam
-              voluptua.
+              Hi, I'm Mitch</p>
+              <p class="about-desc">
+              I'm a Full-Stack Web Developer with a Diploma of IT and a keen eye for UI/UX Design.</p>
+              <p class="about-desc">
+              With over 10 years experience in many different industries, i have a lot to bring to the table. 
+              I'm dedicated, hard-working and take great pride in all I set my mind to.
+              When I'm not creating, collaborating or coding, you'll find me listening to music, playing the guitar, 
+              cycling, hiking or shredding a mountain somewhere on a snowboard.
+              If you would like to work on amazing projects together, please don't hesitate to contact me.
             </p>
-            <a class="hireme-subtitle" href="docs/Mitchell-Painter-Resume-22.pdf" target="_blank" class="logo">My Resume</a>
+            <a class="resume-subtitle" href="docs/Mitchell-Painter-Resume-22.pdf" target="_blank" class="logo">My Resume</a>
           </li>
         </ul>
       </div>
@@ -242,11 +252,11 @@
       <footer>
         <a href="index.html" class="logo">Mitchell Painter</a>
 
-        <nav class="">
+        <nav>
           <ul class="footer">
             <li><a href="#mywork">My Work</a></li>
             <li><a href="#myskills">My Skills</a></li>
-            <li><a href="#hireme">Hire Me</a></li>
+            <li><a href="mailto:mitchell.painter@hotmail.com">Hire Me</a></li>
           </ul>
           <p>© 2022 Mitchell Painter</p>
         </nav>

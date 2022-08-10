@@ -197,11 +197,9 @@ section {
   font-weight: 500;
 }
 
-.hireme-subtitle {
-  text-transform: uppercase;
+.hireme-subtitle, .resume-subtitle {
   color: #00f0ff;
   font-weight: bold;
-  letter-spacing: 0.1em;
   font-size: 1em;
 }
 
@@ -362,8 +360,12 @@ footer {
 
   .portfolio img {
     float: right;
-    max-width: 500px;
+    max-width: 600px;
   }
+
+  .stagger1 {
+    margin-top: 2em;
+}
 }
 
 @media only screen and (min-width: 1250px) {
@@ -407,6 +409,14 @@ footer {
   .hire-subtitle {
     font-size: 1.5em;
     padding-bottom: 1em;
+  }
+
+  .portfolio img {
+    max-width: 700px;
+  }
+
+  .hireme-subtitle {
+    font-size: 1.5em;
   }
 }
 
