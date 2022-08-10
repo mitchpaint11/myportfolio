@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Mitchell Painter</title>
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
@@ -14,22 +14,22 @@
 
         <nav>
           <ul>
-            <li><a href="#">My Work</a></li>
-            <li><a href="#">My Skills</a></li>
-            <li><a href="#">Hire Me</a></li>
+            <li><a href="#mywork">My Work</a></li>
+            <li><a href="#myskills">My Skills</a></li>
+            <li><a href="mailto:mitchell.painter@hotmail.com">Hire Me</a></li>
           </ul>
         </nav>
       </header>
       <div class="social-header">
         <ul>
           <li>
-            <a href="#"><img src="images/dribbble.png" alt="dribbble" /></a>
+            <a href="https://dribbble.com/mitchpaint11" target="_blank"><img src="images/dribbble.png" alt="dribbble" /></a>
           </li>
           <li>
-            <a href="#"><img src="images/linkedin.png" alt="linkedin" /></a>
+            <a href="https://www.linkedin.com/in/mitchell-painter/" target="_blank"><img src="images/linkedin.png" alt="linkedin" /></a>
           </li>
           <li>
-            <a href="#"><img src="images/github.png" alt="github" /></a>
+            <a href="https://github.com/mitchpaint11" target="_blank"><img src="images/github.png" alt="github" /></a>
           </li>
         </ul>
       </div>
@@ -37,23 +37,30 @@
 
     <div class="hero">
       <div class="content">
-        <h1>Beautifully Crafted Web Experiences</h1>
-        <div class="meet">
+        <h1 class="stagger1">Beautifully Crafted Web Experiences</h1>
+        <div class="meet stagger1">
           <span>⇣</span>
           <p>Meet Mitchell Painter</p>
         </div>
-        <svg class="scroll" width="39" height="69" viewBox="0 0 39 69" fill="none">
+        <svg
+          class="scroll stagger1"
+          width="39"
+          height="69"
+          viewBox="0 0 39 69"
+          fill="none"
+        >
           <path
             d="M36.5 19.5V49.5C36.5 58.8889 28.8888 66.5 19.5 66.5C10.1112 66.5 2.5 58.8888 2.5 49.5V19.5C2.5 10.1112 10.1112 2.5 19.5 2.5C28.8888 2.5 36.5 10.1112 36.5 19.5Z"
             stroke="white"
-            stroke-width="5"
+            stroke-width="3"
             stroke-linejoin="round"
           />
-          <ellipse
-            cx="19.8145"
-            cy="22.8894"
-            rx="11.0081"
-            ry="11.6106"
+          <ellipse class="circle"
+            cx="19.6"
+            cy="22"
+            rx="12"
+            ry="12"
+            transform="translate(0 28)"
             fill="white"
           />
         </svg>
@@ -65,22 +72,22 @@
         viewBox="0 0 617 619"
         fill="none"
       >
-        <rect
-          x="309.095"
+        <rect class="square-anim"
+          x="308"
           width="154.547"
           height="154.547"
           rx="19"
           fill="#5200FF"
         />
-        <rect
-          x="154.547"
+        <rect class="square-anim"
+          x="155"
           y="154.547"
           width="154.547"
           height="154.547"
           rx="19"
           fill="white"
         />
-        <rect
+        <rect class="square-anim"
           x="7.62939e-05"
           y="309.095"
           width="154.547"
@@ -89,16 +96,16 @@
           fill="white"
           fill-opacity="0.24"
         />
-        <rect
-          x="154.547"
+        <rect class="square-anim"
+          x="155"
           y="463.641"
           width="154.547"
           height="154.547"
           rx="19"
           fill="white"
         />
-        <rect
-          x="309.095"
+        <rect class="square-anim"
+          x="308"
           y="309.095"
           width="154.547"
           height="154.547"
@@ -107,7 +114,7 @@
         />
         <circle cx="385.774" cy="232.415" r="76.6792" fill="#9EFF00" />
         <circle cx="231.227" cy="385.774" r="76.6792" fill="#00F0FF" />
-        <rect
+        <rect class="square-anim"
           x="462.453"
           y="155.736"
           width="154.547"
@@ -119,7 +126,7 @@
       </svg>
     </div>
 
-    <section class="featured">
+    <section class="featured" id="mywork">
       <div class="left">
         <div class="inner transition2">
           <p class="subtitle">Featured Project</p>
@@ -138,10 +145,10 @@
       />
     </section>
 
-    <section class="skills">
+    <section class="skills" id="myskills">
       <div class="skills-container">
         <ul>
-          <li class="transition2">
+          <li class="transition6">
             <div class="icon-container one">
               <img src="images/icon-ux.svg" alt="UI/UX Icon" />
             </div>
@@ -151,7 +158,7 @@
               iste.
             </p>
           </li>
-          <li class="transition2">
+          <li class="transition6">
             <div class="icon-container two">
               <img src="images/frontend.svg" alt="UI/UX Icon" />
             </div>
@@ -161,7 +168,7 @@
               iste.
             </p>
           </li>
-          <li class="transition2">
+          <li class="transition6">
             <div class="icon-container three">
               <img src="images/logo.svg" alt="UI/UX Icon" />
             </div>
@@ -192,10 +199,10 @@
       </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="aboutme">
       <div class="about-container">
         <ul>
-          <li class="transition2">
+          <li class="transition4">
             <div class="aboutme-container">
               <img src="images/dp.jpg" alt="Profile Image" />
             </div>
@@ -213,9 +220,124 @@
               turpis at. Condimentum faucibus ultrices vulputate amet. sed diam
               voluptua.
             </p>
+            <a class="hireme-subtitle" href="docs/Mitchell-Painter-Resume-22.pdf" target="_blank" class="logo">My Resume</a>
           </li>
         </ul>
       </div>
     </section>
+
+    <section class="hire">
+      <div class="hire-container">
+        <ul>
+          <li class="transition5">
+            <p class="hire-subtitle transition5">Like what you see?</p>
+            <a class="hireme-subtitle" href="mailto:mitchell.painter@hotmail.com" class="logo">Hire Me</a>
+          </li>
+        </ul>
+        </div>
+      </div>
+    </section>
+
+     <div class="footer-container">
+      <footer>
+        <a href="index.html" class="logo">Mitchell Painter</a>
+
+        <nav class="">
+          <ul class="footer">
+            <li><a href="#mywork">My Work</a></li>
+            <li><a href="#myskills">My Skills</a></li>
+            <li><a href="#hireme">Hire Me</a></li>
+          </ul>
+          <p>© 2022 Mitchell Painter</p>
+        </nav>
+      </footer>
+    </div>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js" integrity="sha512-v8B8T8l8JiiJRGomPd2k+bPS98RWBLGChFMJbK1hmHiDHYq0EjdQl20LyWeIs+MGRLTWBycJGEGAjKkEtd7w5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+      <script>
+        gsap.registerPlugin(ScrollTrigger);
+        var tl = gsap.timeline();
+
+        tl.from('.content', {
+          y: '-30%',
+          opacity: 0,
+          duration: 2,
+          ease: Power4.easeOut,
+        })
+        tl.from('.stagger1', {
+          opacity: 0,
+          y: -50,
+          stagger: .3,
+          ease: Power4.easeOut,
+          duration: 2,
+        }, "-=1.5")
+        tl.from('.hero-design', {
+          opacity: 0, y:50, ease: Power4.easeOut, duration: 1
+        }, "-=2")
+
+        gsap.from(".square-anim", {
+          stagger: .2,
+          scale: 0.1,
+          duration: 1,
+          ease: Back.easeOut.config(1.7)
+        })
+
+        gsap.from(".transition2", {
+          scrollTrigger: {
+            trigger: '.transition2',
+            start: "top bottom"
+          },
+          y: 50,
+          opacity: 0,
+          duration: 1.2,
+          stagger: .3,
+        })
+
+        gsap.from(".transition3", {
+          scrollTrigger: {
+            trigger: '.transition3',
+            start: "top center"
+          },
+          y: 50,
+          opacity: 0,
+          duration: 1.2,
+          stagger: .6,
+        })
+
+        gsap.from(".transition4", {
+          scrollTrigger: {
+            trigger: '.transition4',
+            start: "top center"
+          },
+          y: 50,
+          opacity: 0,
+          duration: 1.2,
+          stagger: .6,
+        })
+
+        gsap.from(".transition5", {
+          scrollTrigger: {
+            trigger: '.transition5',
+            start: "top bottom"
+          },
+          y: 50,
+          opacity: 0,
+          duration: 1.2,
+          stagger: .3,
+        })
+
+        gsap.from(".transition6", {
+          scrollTrigger: {
+            trigger: '.transition6',
+            start: "top bottom"
+          },
+          y: 50,
+          opacity: 0,
+          duration: 1.2,
+          stagger: .3,
+        })
+      </script>
   </body>
 </html>

@@ -123,7 +123,8 @@ section {
   font-weight: 500;
 }
 
-.skills, .about {
+.skills,
+.about {
   background: #00f0ff;
 }
 
@@ -156,7 +157,7 @@ section {
 }
 
 .portfolio {
-  background: #F7F7F7;
+  background: #f7f7f7;
 }
 
 .portfolio-container a img {
@@ -186,19 +187,66 @@ section {
   font-weight: 500;
 }
 
+.hireme-subtitle {
+  text-transform: uppercase;
+  color: #00f0ff;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  font-size: 1em;
+}
+
+.footer-container {
+  background: #3e00ee;
+  height: 200px;
+}
+.footer-container a {
+  color: white;
+}
+
+.hire-subtitle {
+  color: black;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+}
+footer .logo {
+  color: #00f0ff;
+  font-weight: bold;
+}
+footer ul {
+  display: flex;
+}
+footer ul a {
+  display: block;
+  padding: 0 1em;
+}
+footer p {
+  color: white;
+  font-size: 0.7em;
+  padding-top: 6em;
+}
+
 @media only screen and (min-width: 800px) {
   .featured img {
     width: 180px;
     border-radius: 1em;
   }
-  .featured, .portfolio {
+  .featured,
+.portfolio {
     text-align: left;
   }
-  .featured, .portfolio-container {
+  .featured,
+.portfolio-container {
     display: grid;
     grid-template-columns: 40% auto;
   }
-  .left, .portfolio-left {
+  .left,
+.portfolio-left {
     display: grid;
     place-content: center;
   }
@@ -298,6 +346,9 @@ section {
   .hero .content {
     padding: 6em 8em 6em 10em;
   }
+  .hire-subtitle {
+    font-size: 1.5em;
+  }
 }
 @media only screen and (min-width: 1550px) {
   header {
@@ -311,5 +362,32 @@ section {
   }
   .hero .content {
     padding: 9em 20em 6em 20em;
+  }
+  .hire-subtitle {
+    font-size: 1.5em;
+    padding-bottom: 1em;
+  }
+}
+.circle {
+  animation: circleAnim 1s infinite alternate-reverse;
+}
+
+@-webkit-keyframes circleAnim {
+  from {
+    transform: translate(0px, 0px);
+    z-index: 5;
+  }
+  to {
+    transform: translate(0px, 26px);
+  }
+}
+
+@keyframes circleAnim {
+  from {
+    transform: translate(0px, 0px);
+    z-index: 5;
+  }
+  to {
+    transform: translate(0px, 26px);
   }
 }/*# sourceMappingURL=main.css.map */
