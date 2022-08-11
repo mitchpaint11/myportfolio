@@ -176,7 +176,7 @@ section {
 }
 
 .about-container ul li {
-  background: white;
+  background: #f7f7f7;
   padding: 2em;
   border-radius: 1em;
   margin-bottom: 1em;
@@ -197,7 +197,8 @@ section {
   font-weight: 500;
 }
 
-.hireme-subtitle, .resume-subtitle {
+.hireme-subtitle,
+.resume-subtitle {
   color: #00f0ff;
   font-weight: bold;
   font-size: 1em;
@@ -293,7 +294,7 @@ footer {
 
 @media only screen and (min-width: 1050px) {
   .hero {
-    height: 90vh;
+    height: 91vh;
   }
   .nav-container {
     display: grid;
@@ -365,7 +366,7 @@ footer {
 
   .stagger1 {
     margin-top: 2em;
-}
+  }
 }
 
 @media only screen and (min-width: 1250px) {
